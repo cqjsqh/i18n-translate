@@ -1,0 +1,23 @@
+{
+  "name": "i18n-translate",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node-dev ./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cqjsqh/i18n-translate.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cqjsqh/i18n-translate/issues"
+  },
+  "homepage": "https://github.com/cqjsqh/i18n-translate#readme",
+  "devDependencies": {
+    "map-stream": "0.0.7",
+    "vinyl-fs": "^2.4.4"
+  }
+}
