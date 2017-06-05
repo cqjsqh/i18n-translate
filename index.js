@@ -38,7 +38,7 @@ function textReplace ( str ) {
 
 vfs.src([srcPath + '/**', '!' + srcPath + '/lang', '!' + srcPath + '/lang/**'])
     .pipe(map(fileHandler))
-    .pipe(vfs.dest( distPath ));
+    .pipe(vfs.dest(distPath));
 
 
 

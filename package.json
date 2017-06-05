@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "node-dev ./index.js"
+    "dev": "node-dev --respawn --no-notify ./index.js"
   },
   "repository": {
     "type": "git",
@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/cqjsqh/i18n-translate#readme",
   "devDependencies": {
+    "chinese-s2t": "^1.0.0",
     "map-stream": "0.0.7",
     "vinyl-fs": "^2.4.4"
   }
